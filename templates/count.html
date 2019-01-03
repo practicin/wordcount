@@ -1,0 +1,14 @@
+<h1 align="centre"> Counted Successfully</h1><br>
+
+<br>
+{{ fulltext }}
+<br>
+
+Total no. of words = {{ length }}
+<br>
+
+{% for word,value in dictionary %}
+
+{{ word }} = {{ value }}
+<br>
+{% endfor %}
